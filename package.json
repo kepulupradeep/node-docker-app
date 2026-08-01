@@ -1,0 +1,17 @@
+{
+  "name": "node-docker-app",
+  "version": "1.0.0",
+  "description": "Node.js Docker CI/CD demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.1.0"
+  }
+}
