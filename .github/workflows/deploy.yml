@@ -165,7 +165,7 @@ jobs:
           sleep 5
 
           if ! curl --fail --silent http://localhost:3000/health >/dev/null; then
-            echo "Production container failed its final health check"
+            echo "Production container failed its final health-check"
             docker logs "${CONTAINER_NAME}" || true
             exit 1
           fi
